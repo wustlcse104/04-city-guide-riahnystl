@@ -1,3 +1,61 @@
-<head>
-<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+      background-color: #FFFFCC;
+      color: #80c0c0;
+      padding: 10px;
+      font-weight: bold;
+        font-size: 12;}
+.page {
+    border: 1px solid #665544;
+    background-color:#efefef;
+    padding: inherit;}
+a:link {color: #ff8080}
+a:visited {color: #ff0000}
+a:hover {
+color: deeppink;
+text-decoration: underline;}
+a:active {color:#a05050}
+a.case1:link {background:green}
+p:first-line {margin-left: 25px}
+p {
+  text-indent: -9999px;
+}
+.credits{
+  text-indent: 20px;}
+div.container:first-line {
+  font-weight: bold;
+  margin-left:30px}
+div:first-letter {
+  font-size:x-large;
+  color: #ffffff}
+ul ul li {
+  font-size:x-large;
+  text-decoration: italic}
+h1 {font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+    color: #FFFFFF;
+    background-color: #FF6600;
+    border: 2px solid #CC3300;
+    padding: 4px;
+    text-transform: capitalize}
+h2 {color: #FF6600;
+  font-family: 'comic sans ms',fantasy;
+    border-bottom: 1px dashed #CCCCCC;}
+    blockquote {
+      text-align: left;
+      color: #00ff00    }
+h3 {color: #777777;}
+input {
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #665544;
+  color:#ffffff;}
+input.submit:hover{
+  background-color:#665544;}
+input.submit:active {
+  background-color: #c8c8c8;}
+input.text {
+  color: #cccccc;}
+input.text: focus {
+  color: #D3D3D3;}
