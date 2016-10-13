@@ -10,7 +10,7 @@
         color: #665544;
         padding: 10px;
         font-weight: bold;
-          font-size: 12;}
+          font-size: 9;}
   .page {
       border: 1px solid #665544;
       background-color:#efefef;
@@ -75,7 +75,7 @@ div.footer {
 }
 div.content {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 75%;
+  font-size: 25%;
   color: #665544;
 }
   input {
@@ -106,10 +106,67 @@ div.content {
                   0 1px 1px hsla(0,0%,100%,.8),
                   0 0 2px 2px hsla(0,70%,70%,.4);
   }
+
+  <title> Examples of CSS boxing </title>
+  <style type="text/css">
+  UL {
+    background: yellow;
+    margin: 12px 12px 12px 12px;
+    padding: 3px 3px 3px 3px;
+
+  }
+  LI {
+    color: white;
+    background: blue;
+    margin: 12px 12px 12px 12px;
+    padding: 12px 0px 12px 12px;
+    list-style: none
+  }
+  LI.withborder {
+    border-style: dashed;
+    border-width: medium;
+    border-color: lime;
+  }
+  h1 {
+    background: white;
+    padding: 1em 2em;
+  }
+  p { border: solid red }
+  p { height: 300px; overflow: scroll; }
+  div{
+     border-top: solid red;
+    border-right: solid red;
+    border-bottom: solid red;
+    border-left: solid red}
+  .container > div{
+    height: 50px;
+    float: left;
+  }
+  element {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  transform: translateX(-50%);
+  background-color: yellow
+}
+#menu {
+  display: inline-block;
+}
+#footer {
+  display: inline-block;
+}
+div {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+  </style>
     </style>
 
 <meta http-equiv="Content-Type" content="text/html">
 <meta name="description" content= "My webpage describes New York City and it's amazing attractions check out our mission statement"/>
+
+
+
 </head>
 
 <body>
