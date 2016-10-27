@@ -21,7 +21,7 @@ body { font-family: Arial, Helvetica, sans-serif;
 font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
 }
 #main {
-  background: url(https://cloud.githubusercontent.com/assets/21322120/19751015/bd4d8576-9bbb-11e6-889a-a90c9a852125.jpg) no-repeat;
+  background: url(https://cloud.githubusercontent.com/assets/21322120/19751012/b963a18e-9bbb-11e6-944a-92c3e07ad491.jpg) no-repeat;
 }
 #page{ margin: 20px; }
 #logo{ width: 35%; margin-top: 5px; font-family: georgia; display: inline-block;
@@ -33,7 +33,7 @@ font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
 #tagline {
   float: left;
 }
-#tagline h3 {font-size; 30px; color: #20b2aa; float: left; padding-top: 20px; padding-left: 20px;
+#tagline h3 {font-size; 30px; color: #20b2aa; float: left; padding-top: 20px; padding-left: 20px; text-indent: -9999px;
 }
 #header {
   padding-top: 40px;
