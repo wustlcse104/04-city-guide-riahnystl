@@ -107,21 +107,12 @@ input [type=submit] {
     box-shadow: 0px 1px 1px #666;
   }
   #nav ul li a:active{ background-color : #ff8f00;}
-      #nav ul li.red a{
-        background-color: red;
-      }
-      #nav ul li.orange a{
-        background-color: red;
-      }
-      #nav ul li.yellow a{
-        background-color: yellow;
-      }
   #content{
     margin: 30px 0;
     background: white;
     padding: 20px;
     clear: both;
-    width: 510px;
+    width: 700px;
     float: left;
   }
   #content h2{
@@ -145,23 +136,6 @@ input [type=submit] {
     font-size: 14px;
     color: #595858;
     padding-top: 20px;
-  }
-  #footer{
-    padding-top: 20px;
-    padding-bottom: 60px;
-    margin-top: 40px;
-    border-bottom: 1px #ccc solid;
-    margin-bottom: 10px;
-    background: url(https://cloud.githubusercontent.com/assets/21322120/19752757/533d1872-9bc5-11e6-8bce-d273cd1bebdb.jpg) repeat-x;
-  }
-  #footer p{
-    text-transform: uppercase;
-    font-size: 80%;
-    color: grey;
-  }
-  #footer container{
-    width: 800px;
-    margin: 0 auto;
   }
   #sidebar h3 {
     font-size: 24px;
@@ -196,3 +170,20 @@ ul li a{ box-shadow: 0px 1px 1px #999;}
   empty-cells: hide;
 }
 td:hover {text-decoration: underline}
+#footer{
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin-top: 40px;
+  border-bottom: 1px #ccc solid;
+  margin-bottom: 10px;
+  background: url(https://cloud.githubusercontent.com/assets/21322120/19752757/533d1872-9bc5-11e6-8bce-d273cd1bebdb.jpg) repeat-x;
+}
+#footer p{
+  text-transform:uppercase;
+  font-size: 80%;
+  color: grey;
+}
+#footer container{
+  width: 800px;
+  margin: 0 auto;
+}
