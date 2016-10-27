@@ -60,6 +60,14 @@ ul#menu li{
   padding-bottom: 10px;
   width: 260px;
 }
+input[type=text] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+input[type=text]:focus {
+  border-color:#333
+}
 input [type=submit] {
   padding: 5px 15px;
   background: url(http://web.mi.imati.cnr.it/conferences/BAYSM2016/images/submit_button.png);
