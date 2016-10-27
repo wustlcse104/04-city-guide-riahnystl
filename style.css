@@ -21,7 +21,7 @@ body { font-family: Arial, Helvetica, sans-serif;
 font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
 }
 #main {
-  background: url(https://cloud.githubusercontent.com/assets/21322120/19751012/b963a18e-9bbb-11e6-944a-92c3e07ad491.jpg) no-repeat;
+  background: url(https://cloud.githubusercontent.com/assets/21322120/19752666/c9c5cf30-9bc4-11e6-98a1-d252144276d3.jpg) repeat-x;
 }
 #page{ margin: 20px; }
 #logo{ width: 35%; margin-top: 5px; font-family: georgia; display: inline-block;
@@ -138,6 +138,7 @@ ul#menu li{
   margin-top: 40px;
   border-bottom: 1px #ccc solid;
   margin-bottom: 10px;
+  background: url(https://cloud.githubusercontent.com/assets/21322120/19752757/533d1872-9bc5-11e6-8bce-d273cd1bebdb.jpg) repeat-x;
 }
 #footer p{
   text-align: right;
