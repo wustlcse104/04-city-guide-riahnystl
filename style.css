@@ -1,7 +1,8 @@
 /*
 * multi-line comment
 */
-p{ line-height: 1em; }
+p{ line-height: 1em;
+overflow: scroll;}
 h1,h2,h3,h4{
   color: #9acd32
   font-weight: normal;
@@ -79,11 +80,11 @@ input [type=submit] {
 #login {
   float: left;
   font-size: 18px;
-  margin-left: 55px;
-  margin-top: 35px;
+  text-align: left;
+  margin-top: 15px;
   background: #fafad2;
   border: 1px solid #BEBDBD;
-  padding: 15px 15px 30px 15px;
+  padding: 15px 15px 15px 15px;
 }
 #nav{
   width: 60%; display: inline-block; text-align: right; float: right;
