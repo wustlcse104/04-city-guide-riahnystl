@@ -41,6 +41,15 @@ font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
     box-shadow: 0px 1px 1px #666;
   }
   #nav ul li a:active{ background-color : #ff8f00;}
+      #nav ul li.red a{
+        background-color: red;
+      }
+      #nav ul li.orange a{
+        background-color: red;
+      }
+      #nav ul li.yellow a{
+        background-color: yellow;
+      }
   #content{
     margin: 30px 0;
     background: white;
