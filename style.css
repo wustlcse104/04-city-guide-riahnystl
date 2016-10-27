@@ -184,6 +184,6 @@ td:hover {text-decoration: underline}
   color: grey;
 }
 #footer container{
-  width: 800px;
+  width: auto;;
   margin: 0 auto;
 }
