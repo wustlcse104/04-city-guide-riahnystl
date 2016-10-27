@@ -50,7 +50,7 @@ ul#menu li a {
 ul#menu li{
   float: left;
   padding-left: 30px;
-  padding-right: 75px;
+  padding-right: 100px;
 }
 #nav{
   width: 60%; display: inline-block; text-align: right; float: right;
