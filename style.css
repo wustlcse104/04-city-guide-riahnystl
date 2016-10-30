@@ -6,6 +6,13 @@ p{ line-height: 1em;}
   height: 1em
   overflow: scroll;
 }
+.container1{
+  border: 1px solid #a3662a;
+}
+.three-column {
+  width: 33%;
+  float: left;
+}
 h1,h2,h3,h4{
   color: #9acd32
   font-weight: normal;
@@ -41,12 +48,14 @@ font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
 }
 #header {
   padding-top: 40px;
+  width: 940px;
+  position: fixed;bottom: 20px; right:0px;
 }
 ul#menu {
   list-style-type: square;
   list-style-position: outside;
   padding-top: 55px;
-  width: auto;
+  width: 940px;
 }
 ul#menu li a {
   font-size: 30px;
@@ -64,13 +73,16 @@ ul#menu li{
   padding-bottom: 10px;
   width: 260px;
 }
+textarea:focus {
+  background: #ccc;
+}
 input[type=text] {
   padding: 5px;
   border: 2px solid #ccc;
   border-radius: 5px;
 }
 input[type=text]:focus {
-  border-color:#333
+  border-color:#333;
 }
 input [type=submit] {
   padding: 5px 15px;
@@ -90,7 +102,7 @@ input [type=submit] {
   padding: 15px 15px 15px 15px;
 }
 #nav{
-  width: 60%; display: inline-block; text-align: right; float: right;
+  width: 60%; display: inline-block; text-align: right; float: right;position: fixed;
 }
 #nav ul{}
   #nav ul li{
