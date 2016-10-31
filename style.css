@@ -49,7 +49,6 @@ font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
 #header {
   padding-top: 40px;
   width: 940px;
-  bottom: 20px; right:0px;
 }
 ul#menu {
   list-style-type: square;
@@ -142,7 +141,7 @@ input [type=submit] {
     color: #daa520;
     font-weight: normal;
     padding-top: 20px;
-    pading-bottom: 20px;
+    padding-bottom: 20px;
   }
   #content p{
     font-size: 14px;
