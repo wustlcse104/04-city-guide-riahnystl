@@ -32,7 +32,7 @@ body { font-family: Arial, Helvetica, sans-serif;
 font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
 }
 #main {
-  background: url(https://cloud.githubusercontent.com/assets/21322120/19752666/c9c5cf30-9bc4-11e6-98a1-d252144276d3.jpg) no=repeat fixed top-right;
+  background: url(https://cloud.githubusercontent.com/assets/21322120/19752666/c9c5cf30-9bc4-11e6-98a1-d252144276d3.jpg) no=repeat;
 }
 #page{ margin: 20px; }
 #logo{ width: 35%; margin-top: 5px; font-family: georgia; display: inline-block;
