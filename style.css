@@ -49,7 +49,6 @@ font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
 #header {
   padding-top: 40px;
   width: 940px;
-  float: right;
 }
 ul#menu {
   list-style-type: square;
@@ -64,7 +63,7 @@ ul#menu li a {
   text-decoration: none;
 }
 ul#menu li{
-  float: right;
+  float: left;
   padding-left: 30px;
   padding-right: 100px;
 }
