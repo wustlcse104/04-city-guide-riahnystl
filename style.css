@@ -64,8 +64,9 @@ ul#menu li a {
   float: right horizontal;
 }
 ul#menu li{
+  float: left;
   padding-left: 30px;
-  padding-right: 100px;
+  padding-right: 75px;
 }
 #rating {
   border-bottom: 1px solid #778899;
