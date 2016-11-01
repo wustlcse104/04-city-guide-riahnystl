@@ -42,9 +42,9 @@ font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #f0fff0;
   margin-top: 40px;
 }
 #tagline {
-  float: left;
+  float: right;
 }
-#tagline h3 {font-size; 30px; color: #20b2aa; float: left; padding-top: 20px; padding-left: 20px; text-indent: -9999px;
+#tagline h3 {font-size; 30px; color: #20b2aa; float: right; padding-top: 20px; padding-left: 20px; text-indent: -9999px;
 }
 #header {
   padding-top: 40px;
