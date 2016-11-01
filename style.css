@@ -63,7 +63,7 @@ ul#menu li a {
   text-decoration: none;
 }
 ul#menu li{
-  float: left;
+  float: ;
   padding-left: 30px;
   padding-right: 100px;
 }
@@ -102,7 +102,7 @@ input [type=submit] {
   padding: 15px 15px 15px 15px;
 }
 #nav{
-  width: 60%; display: inline-block; text-align: right; float: right; position:right;
+  width: 60%; display: inline-block; text-align: right; float: right;
 }
 #nav ul{}
   #nav ul li{
@@ -172,7 +172,7 @@ input [type=submit] {
     background: #fafad2;
     border: 1px solid #BEBDBD;
     padding: 15px 15px 30px 15px;
-    position: fixed;
+    position: fixed right;
   }
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999;}
