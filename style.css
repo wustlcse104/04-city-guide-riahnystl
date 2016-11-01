@@ -55,7 +55,7 @@ ul#menu {
   list-style-position: outside;
   padding-top: 55px;
   width: 940px;
-  float: right;
+  text-align: left;
 }
 ul#menu li a {
   font-size: 30px;
