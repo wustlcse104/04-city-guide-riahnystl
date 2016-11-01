@@ -61,6 +61,7 @@ ul#menu li a {
   font-size: 30px;
   color: #778899;
   text-decoration: none;
+  width: 960px
   float: right horizontal;
 }
 ul#menu li{
