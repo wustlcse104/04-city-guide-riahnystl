@@ -55,15 +55,15 @@ ul#menu {
   list-style-position: outside;
   padding-top: 55px;
   width: 940px;
-  float: right horizontal;
+  float: right;
 }
 ul#menu li a {
   font-size: 30px;
   color: #778899;
   text-decoration: none;
+  float: right;
 }
 ul#menu li{
-  float: ;
   padding-left: 30px;
   padding-right: 100px;
 }
