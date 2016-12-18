@@ -1,40 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
 <head>
-    <!-- Include normalize.css from CDN to provide some very basic default styling -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8"><script type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Include normalize.css from CDN to provide some very basic default styling -->
 <title> City Guide website </title>
 
 <meta name="author" content="Ria Han" />
 <meta name="description" content="" />
-
-  <link rel="stylesheet" href="style.css" type="text/css" />
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- jquery 3.1.1 (a dependency for the bootstrap javascript-->
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div id="main">
-  <!-- content goes here -->
-  <div id="header">
-    <div id="logo">
-    <h1> Logo </h1>
-    </div>
-    <div id="tagline">
-      <h3>Photographer's guide to New York City</h3>
-    </div>
-    <div style="clear:both"></div>
-    <ul id="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index2.html">About </a></li>
-      <li><a href="index2.html">Attractions and Restaurants </a></li>
-      <li><a href="index2.html"> Contact </a></li>
-    </ul>
-    <fieldset>
-    <div id="login">
-      <legend>Log In </legend>
-      <input type="text" class="input" value="ID" /> <input type="text" class="input" value="Password" />
-    <input type="submit" />
-    <div class="links"><a href="#">Forgot password</a> | <a href="#">Registration</a></div>
-  </fieldset>
-  </div> <!--end header -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="https://wustl.edu">
+                    <img class="head-logo-image" src="" alt="" height="31" width="335"  onerror="this.src=""; this.onerror=null;">
+                  </a>
+          </div>
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+              <li class=""><a href="https://wustl.edu/admissions/">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="http://gifts.wustl.edu/">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visit <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Times Square</a></li>
+                  <li><a href="#">Guggenheim Museum</a></li>
+                  <li><a href="#">Metropolitan Museum</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Flat Iron building</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Central Park</a></li>
+                </ul>
+              </li>
+                <li class="physicians"><a href="http://wuphysicians.wustl.edu/">Contact</a></li>
+      					<li class="directory"><a href="/directory/">Directory</a></li>
+                <li class="dropdown">  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">
+                    </br>
+                      Phone:  (877) 215-2727</br>
+                    </li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+         </div>
+       </div>
+      </nav>
+
   <div id="content">
     <h2> Join us on a journey! </h2>
     <h3> Ri A Han, photographer and journalist who has lived in New York City, introduces new york city as a guide.</h3>
@@ -202,7 +234,7 @@ Just use us as your guide to travel the most exquisite places. </p>
     <div id="popular">
       <h3>Popular Attractions </h3>
       <ul>
-        <li><a href="index.html"> Chelsea Market </a></li>
+        <li><a href="index.html"><b> Chelsea Market </b></a></li>
         <li><a href="index.html"> Flat Iron building </a></li>
         <li><a href="index.html"> Grand Central Terminal </a></li>
       </ul>
